@@ -70,7 +70,7 @@ const Dashboard = () => {
       >
         <BuiltByDevelopers
           title="Built by Developers"
-          name="MANTRA Admin Panel"
+          name="AWESOME Admin Panel"
           description="From colors, cards, typography to complex elements, you will find the full documentation."
           image={
             <Image

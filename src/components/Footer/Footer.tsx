@@ -23,8 +23,8 @@ const Footer = () => {
         }}
         mb={{ base: '20px', xl: '0px' }}
       >
-        <Link href="https://www.mantraomniverse.com/" target="_blank">
-          <Text as="span">MANTRA Finance</Text>
+        <Link href="https://github.com/Digital-Human-BK/" target="_blank">
+          <Text as="span">Reworked by BK</Text>
         </Link>
       </Text>
     </Flex>

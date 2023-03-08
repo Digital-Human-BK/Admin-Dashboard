@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react'
 
 import { HomeIcon } from 'components/Icons/Icons'
-import { ReactComponent as MantraLogo } from 'assets/svg/mantra-logo.svg'
+import { ReactComponent as DashboardLogo } from 'assets/svg/dashboard-logo.svg'
 
 import SidebarResponsive from 'components/Sidebar/SidebarResponsive'
 
@@ -55,7 +55,7 @@ const AuthNavbar = ({ logoText }: AuthNavbarProps) => {
       color={mainText}
     >
       <Box mr="10px" ml="10px">
-        <MantraLogo width="25px" height="25px" />
+        <DashboardLogo width="40px" height="40px" />
       </Box>
       <Text fontSize="sm" mt="3px">
         {logoText}

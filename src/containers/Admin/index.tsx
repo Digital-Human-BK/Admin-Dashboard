@@ -43,7 +43,7 @@ const AdminContainer = () => {
     <>
       <Sidebar
         routes={routes}
-        logoText="MANTRA Admin Panel"
+        logoText="AWESOME Admin Panel"
         sidebarVariant={sidebarVariant}
       />
       <MainPanel
@@ -55,7 +55,7 @@ const AdminContainer = () => {
         <Portal>
           <AdminNavbar
             onOpen={onOpen}
-            logoText="MANTRA Admin Panel"
+            logoText="AWESOME Admin Panel"
             fixed={fixed}
           />
         </Portal>

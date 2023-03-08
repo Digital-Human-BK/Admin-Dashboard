@@ -1,4 +1,4 @@
-# MantraDAO Earn Admin App
+# AWESOME Admin-Dashboard App
 
 ## Install the dependencies
 

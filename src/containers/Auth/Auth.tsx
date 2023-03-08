@@ -37,7 +37,7 @@ const AuthContainer = () => {
   return (
     <Box ref={navRef} w="100%">
       <Portal containerRef={navRef}>
-        <AuthNavbar logoText="MANTRA Admin Panel" />
+        <AuthNavbar logoText="AWESOME Admin Panel" />
       </Portal>
       <Box w="100%">
         <Box ref={wrapper} w="100%">

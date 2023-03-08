@@ -10,7 +10,7 @@ import {
   Text,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ReactComponent as MantraLogo } from 'assets/svg/mantra-logo.svg'
+import { ReactComponent as DashboardLogo } from 'assets/svg/dashboard-logo.svg'
 
 // Custom components
 import IconBox from 'components/Icons/IconBox'
@@ -163,7 +163,7 @@ const SidebarContent = ({ logoText, routes }: SidebarContentProps) => {
           fontSize="11px"
         >
           <Box mr="10px">
-            <MantraLogo width="25px" height="25px" />
+            <DashboardLogo width="32px" height="32px" />
           </Box>
           <Text fontSize="sm" mt="3px">
             {logoText}

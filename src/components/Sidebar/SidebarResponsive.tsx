@@ -22,7 +22,7 @@ import {
 import IconBox from 'components/Icons/IconBox'
 import Separator from 'components/Separator/Separator'
 // import { CreativeTimLogo } from 'components/Icons/Icons'
-import { ReactComponent as MantraLogo } from 'assets/svg/mantra-logo.svg'
+import { ReactComponent as DashboardLogo } from 'assets/svg/dashboard-logo.svg'
 import { AdminRoute, DashboardRoutes } from 'types'
 
 interface SidebarResponsiveProps {
@@ -171,9 +171,9 @@ const SidebarResponsive = ({ logoText, routes }: SidebarResponsiveProps) => {
         alignItems="center"
         fontSize="11px"
       >
-        <MantraLogo width="25px" height="25px" />
+        <DashboardLogo width="32px" height="32px" />
         {/* <CreativeTimLogo w="32px" h="32px" me="10px" /> */}
-        <Text fontSize="sm" mt="3px">
+        <Text fontSize="sm" mt="3px" ml="5px">
           {logoText}
         </Text>
       </Link>

@@ -50,7 +50,7 @@ const Configurator = ({
         <DrawerHeader pt="24px" px="24px">
           <DrawerCloseButton />
           <Text fontSize="xl" fontWeight="bold" mt="16px">
-            MANTRA Admin Panel Configurator
+            Admin Panel Configurator
           </Text>
           <Text fontSize="md" mb="16px">
             See your dashboard options.
