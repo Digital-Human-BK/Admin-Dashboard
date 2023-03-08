@@ -37,7 +37,7 @@ const Billing = () => {
           >
             <CreditCard
               backgroundImage={BackgroundCard1}
-              title="Purity UI"
+              title="AWESOME CARD"
               number="7812 2139 0823 XXXX"
               validity={{
                 name: 'VALID THRU',

@@ -66,13 +66,13 @@ const AuthNavbar = ({ logoText }: AuthNavbarProps) => {
     <HStack display={{ sm: 'none', lg: 'flex' }}>
       <NavLink to="/admin/dashboard">
         <Button
-          fontSize="sm"
+          fontSize="md"
           ms="0px"
           px="0px"
           me={{ sm: '2px', md: '16px' }}
           color={navbarIcon}
           variant="transparent-with-icon"
-          leftIcon={<HomeIcon color={navbarIcon} w="12px" h="12px" me="0px" />}
+          leftIcon={<HomeIcon color={navbarIcon} w="16px" h="16px" me="0px" />}
         >
           <Text>Dashboard</Text>
         </Button>

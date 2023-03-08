@@ -21,7 +21,6 @@ import {
 
 import IconBox from 'components/Icons/IconBox'
 import Separator from 'components/Separator/Separator'
-// import { CreativeTimLogo } from 'components/Icons/Icons'
 import { ReactComponent as DashboardLogo } from 'assets/svg/dashboard-logo.svg'
 import { AdminRoute, DashboardRoutes } from 'types'
 
